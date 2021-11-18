@@ -1,0 +1,95 @@
+body {
+    font-family: Montserrat,sans-serif;
+    background-color:#F7DAD9;
+    
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat-Bold, sans-serif;
+    font-weight: bold;
+   
+  }
+
+.hidden {
+    display: none;
+}
+
+.content{
+    padding: 5% 5%;
+}
+
+.varos-container{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.varos-list, .cities-list{
+    min-width: 30%;
+    list-style: none;
+}
+
+.varos {
+    margin: 0.5rem;
+    background: white;
+    color:black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.varos li{
+    flex: 1;
+}
+
+.delete-btn, .mod-btn, .exit-btn{
+    border:none;
+    padding: 1rem;
+    cursor:pointer;
+    font-size: 1rem;
+}
+
+.delete-btn{
+    background-color: tomato;
+}
+
+.mod-btn{
+    background-color: #79D70F;
+}
+
+.exit-btn{
+    background-color: gray;
+}
+
+.varos-item{
+    padding: 0rem 0.5rem;
+}
+
+.far fa-trash-alt, .fas fa-check, .fas fa-times{
+    pointer-events: none;
+}
+
+.pad{
+    padding: 5% 5%;
+}
+
+.pad1{
+   padding: 10% 10%;
+    background-color: lightblue;
+}
+
+.cities-list{
+    float:right;
+    background-color: lightblue;
+}
+
+.title{
+    float:left;
+}
+
+
+
+.cont{
+    display: flex;
+}
